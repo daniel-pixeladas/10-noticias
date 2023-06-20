@@ -1,8 +1,34 @@
 import React, { useEffect, useState } from 'react'
 import '../assets/css/footer.css'
 import { Container, Divider, Grid, Link, Stack, Typography } from '@mui/material'
-import { BLOG, SERVICIOS, blog2 } from '../constants/Webconstants'
 import axios from 'axios'
+
+const SERVICIOS = [
+    {
+        text: 'Desarrolladores React y Node JS',
+        url: 'https://www.pixeladas.es/es/servicios/desarrolladores-react/'
+    },
+    {
+        text: 'Marketing Digital',
+        url: 'https://www.pixeladas.es/es/servicios/marketing-digital/'
+    },
+    {
+        text: 'Servicios SEO y posicionamiento WEB',
+        url: 'https://www.pixeladas.es/es/servicios/seo-posicionamiento-web/'
+    },
+    {
+        text: 'SEM',
+        url: 'https://www.pixeladas.es/es/servicios/sem-publicidad/'
+    },
+    {
+        text: 'Publicidad y Google ADS',
+        url: 'https://www.pixeladas.es/es/servicios/sem-publicidad/'
+    },
+    {
+        text: 'CRM',
+        url: 'https://www.pixeladas.es/es/servicios/crm/'
+    },
+]
 
 
 
